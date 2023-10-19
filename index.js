@@ -1,4 +1,8 @@
 `use strict`;
+window.onload = function () {
+  var audio = new Audio("sounds/entry.mp3");
+  audio.play();
+};
 
 let numdrumlength = document.querySelectorAll(".drum").length;
 
